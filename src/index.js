@@ -1,26 +1,30 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import App from './App';
+import "bootstrap/dist/css/bootstrap.min.css";
 // import './index.css';
 // import App from './App';
 // import reportWebVitals from './reportWebVitals';
 
-const myName = 'Nguyen Tien Manh';
-const myAge = 20;
-const myStatus = true;
-function total(a,b){
-  return a + b;
-}
-const person = {
-  name: 'Nguyen Tien Manh',
-  age: 18,
-  status: false
-}
-const a =10;
-const b=12;
-function total1(giatriA,giatriB){
-  return giatriA + giatriB
-}
-const element =  <h1>Tổng là: {total1(a,b)} </h1> // {total1(a,b)} --> Là 1 biểu thức
+// const myName = 'Nguyen Tien Manh';
+// const myAge = 20;
+// const myStatus = true;
+// function total(a,b){
+//   return a + b;
+// }
+// const person = {
+//   name: 'Nguyen Tien Manh',
+//   age: 18,
+//   status: false
+// }
+// const a =10;
+// const b=12;
+// function total1(giatriA,giatriB){
+//   return giatriA + giatriB
+// }
+// const element =  <h1>Tổng là: {total1(a,b)} </h1> // {total1(a,b)} --> Là 1 biểu thức
+
+
 
 ReactDOM.render(
   // myName,
@@ -28,7 +32,9 @@ ReactDOM.render(
   // myStatus ? 'Married' : 'Single',
   // total(4,7),
   // person.name,
-  element,
+  // person.age,
+  // element,
+  <App />,
   document.getElementById('root')
 );
 
