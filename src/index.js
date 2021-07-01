@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import App from "./App";
 // import './index.css';
 // import App from './App';
 // import reportWebVitals from './reportWebVitals';
@@ -28,7 +29,8 @@ ReactDOM.render(
   // myStatus ? 'Married' : 'Single',
   // total(4,7),
   // person.name,
-  element,
+  // element,
+  <App />,
   document.getElementById('root')
 );
 
